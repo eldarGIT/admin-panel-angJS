@@ -2,10 +2,16 @@
 
 /* Controllers */
 
-angular.module('myApp.controllers', []).
-  controller('MyCtrl1', [function() {
+var adminController = angular.module('adminController', []);
 
-  }])
-  .controller('MyCtrl2', [function() {
+adminController.controller('ListCtrl', [function() {
+
+  }]);
+
+adminController.controller('NewCtrl', [function() {
+
+  }]);
+  
+adminController.controller('EditCtrl', [function() {
 
   }]);
