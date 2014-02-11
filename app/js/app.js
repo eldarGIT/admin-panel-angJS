@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('admin', ['ngRoute', 'adminController'])
+angular.module('admin', ['ngRoute', 'adminController', 'adminService'])
 	.config(['$routeProvider', function($routeProvider) {
 		$routeProvider
 			.when('/list', {templateUrl: 'partials/list.html', controller: 'ListCtrl'})

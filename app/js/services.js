@@ -2,8 +2,11 @@
 
 /* Services */
 
+var adminService = angular.module('adminService', []);	// 'ngResource'
 
-// Demonstrate how to register services
-// In this case it is a simple value service.
+adminService.factory('Items', [function() {
+	
+}]);
+
 angular.module('admin.services', []).
   value('version', '0.1');

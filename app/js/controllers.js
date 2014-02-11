@@ -4,8 +4,8 @@
 
 var adminController = angular.module('adminController', []);
 
-adminController.controller('ListCtrl', [function() {
-
+adminController.controller('ListCtrl', ['$scope', 'Items', 'Data', function($scope, Items, Data) {
+	$scope.items = Items.query();
   }]);
 
 adminController.controller('NewCtrl', [function() {
