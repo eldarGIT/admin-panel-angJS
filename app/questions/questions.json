@@ -1,0 +1,8 @@
+[
+	{"title": "Title 1", "category": "Категория 1", "answerer": "answerer 1", "author": "Author 1", "created": "Created 1", "answered": "answered 1"},
+	{"title": "Title 2", "category": "Категория 2", "answerer": "answerer 2", "author": "Author 2", "created": "Created 2", "answered": "answered 2"},
+	{"title": "Title 3", "category": "Категория 3", "answerer": "answerer 3", "author": "Author 3", "created": "Created 3", "answered": "answered 3"},
+	{"title": "Title 4", "category": "Категория 4", "answerer": "answerer 4", "author": "Author 4", "created": "Created 4", "answered": "answered 4"},
+	{"title": "Title 5", "category": "Категория 5", "answerer": "answerer 5", "author": "Author 5", "created": "Created 5", "answered": "answered 5"},
+	{"title": "Title 6", "category": "Категория 6", "answerer": "answerer 6", "author": "Author 6", "created": "Created 6", "answered": "answered 6"}
+]

@@ -1,1 +1,22 @@
 <div>list html</div>
+<table>
+	<thead>
+		<tr>
+			<th ng-repeat="head in tablehead">{{head.title}}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="item in items">
+			<td>{{item.title}}</td>
+			<td>{{item.category}}</td>
+			<td>{{item.answerer}}</td>
+			<td>{{item.author}}</td>
+			<td>{{item.created}}</td>
+			<td>{{item.answered}}</td>
+		</tr>
+	</tbody>
+</table>
+
+<ul>
+	<li ng-repeat="cat in categories">{{cat.name}}</li>
+</ul>
